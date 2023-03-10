@@ -29,7 +29,7 @@
 #include <apr_sdbm.h>
 #include <time.h>
 
-#define VERSION "v1.0"
+#define VERSION "1.1.0"
 
 #ifndef WIN32
 #include <unistd.h>
