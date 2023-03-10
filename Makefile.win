@@ -17,7 +17,7 @@ LIBS = $(APR)\lib\libapr-1.lib \
 ###########################################################################
 ###########################################################################
 
-DEFS = /nologo /DWIN32 /DWINNT  /D_WINDOWS /Dinline=APR_INLINE /w /Zf /Zi /FS /O2 /GL /MD /DNDEBUG /MP16 /arch:AVX
+DEFS = /nologo /DWIN32 /DWINNT  /D_WINDOWS /Dinline=APR_INLINE /w /Zf /Zi /FS /O2 /GL /MD /DNDEBUG
 EXE = modsec-sdbm-util.exe
 
 INCLUDES = -I. -I.. -I$(APRUTIL)\include -I$(APR)\include
